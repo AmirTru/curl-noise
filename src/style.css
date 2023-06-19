@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  outline: none;
+
+  background: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  text-align: left;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.fab:hover {
+  color: rgba(255, 255, 255, 0.8);
+  scale: 1.1;
+}
